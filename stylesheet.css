@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*site formatting*/
+h1, h2, h3, p {
+	font-family: "Raleway", "lato";
+	line-height: 150%;
+}
+
+body  {
+	margin: 0px;
+}
+
+h1, h2, h3  {
+	text-align:center;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 30px;
+}d
+
+h2 {
+	font-size: 50px;
+	border-style: solid;
+	border-width: 4px;
+	padding: 7px;
+	display: inline;
+}h3 {
+	font-size: 40px;
+}
+
+.h2-parent {
+	text-align: center;
+	padding: 50px;
+}
+
+/*navbar formatting*/
+
+.navbar ul  {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: darkred;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 1px 10px 1px black;
+}
+
+.navbar li  {
+	float: left;
+	
+}
+
+.navbar img  {
+	width: 60px;
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.nav li a  {
+	display: block;
+	color: white;
+	font-family: "Raleway";
+	margin: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+.navbar a:hover  {
+	background-color: indianred;
+}
+
+.navbar img:hover {
+	background-color: indianred;
+}
+
+
+.navbar a:active  {
+	background-color: white;
+	color: black;
+}
+
+/*homepage formatting*/
+
+.banner img  {
+	width: 100%;
+}
+
+.home1 .home2 .home3  {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.homebody  {
+	margin: 50px;
+}
+
+/*cte page formatting*/
+
+.ctebody  {
+	font-family: "Raleway", "lato";
+}
+
+.ctebar  {
+	padding: 30px;
+	padding-left: 60px;
+	background-color: lightgrey;
+	overflow: auto;
+	text-align: justify;
+}
+
+.ctebar img  {
+    float: right;
+	width: 200px;
+	height: 200px;
+	padding-left: 100px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.ctebar2  {
+	padding: 30px;
+	padding-right: 60px;
+	background-color: white;
+	overflow: auto;
+	text-align: justify;
+}
+
+.ctebar2 img {
+    float: left;
+	width: 150px;
+	height: 200px;
+	padding-right: 100px;
+	padding-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.ctebar h3  {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	margin-left: 150px;
+}
+
+.ctebar2 h3  {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 170px;
+}
+
+.cteteach {
+	text-align: center;
+}
+
+.cteteach img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#teachpic1, #teachpic2 {
+	margin: 50px;
+}
+
+#teachtxt1, #teachtxt2 {
+	display: none;
+	opacity: 0;
+}
+
+#teachpic1:hover ~ #teachtxt1 {
+	display: block;
+	opacity: 1;
+}
+
+#teachpic2:hover ~ #teachtxt2 {
+	display: block;
+	opacity: 1;
+}
+
+.cteteach #teachpic1:hover {
+	opacity: .5;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.cteteach #teachpic2:hover {
+	opacity: .5;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.gallery  {
+	align-content: center;
+}
+
+.gallery img  {
+	display: inline;
+	width: 30%;
+	height: 250px;
+	margin: 5px;
+	
+}
+
+.gallery img:hover  {
+	opacity: .5;
+	
+}
+
+/*tsa page formatting*/
+
+.tsabar  {
+	padding: 30px;
+	padding-left: 60px;
+	background-color: lightgrey;
+	overflow: auto;
+	text-align: justify;
+}
+	
+.tsabar img  {
+    float: right;
+	width: 200px;
+	padding-left: 100px;
+	padding-right: 70px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#bar {
+	padding: 30px;
+	padding-left: 60px;
+	overflow: auto;
+	text-align: justify;
+}
+
+#bar {
+	background-color: lightgrey
+}
+
+#bar img {
+    float: right;
+	width: 200px;
+	padding-left: 70px;
+	padding-right: 30px;	
+}
+
+#slogan img {
+	width: 100%;
+}

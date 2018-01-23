@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway", "lato";
+	line-height: 150%;
+}
+
+/*enter styling*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#enter {
+	background-image: url(Images/pexels-photo-392100.jpeg);
+	
+}
+
+#enter img{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	z-index: 9999;
+	background-image: url(Images/pexels-photo-392100.jpeg);
+	background-size: contain;
+}
+
+#enter:hover {
+	filter: blur(2px);
+	transition-property: filter;
+	transition-duration: 1s;
+}
+
+#enter img:hover {
+	background-position: center center;
+	transition-property: background-position;
+	transition-duration: 1s;
+}
+
+
+
+
+
+.navbar {
+	position: fixed;
+	z-index: 9999;
+}
+
+.navbar ul {
+	list-style-type: none;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	margin: 30px;
+}
+
+.navbar li:hover {
+	filter:hue-rotate(90deg);
+	filter:blur(2px);
+	transition-property: filter;
+	transition-duration: 1s;
+}
+
+.navbar img {
+	width: 80px;
+	opacity: 50%;
+}
+
+.bannertxt {
+	margin: auto;
+	text-align: center;
+}
+
+.bannertxt img {
+	width: 75%;	
+}
+
+.bannertxt {
+	background-image: url(Images/ford-2705402_1920.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: aqua;
+}
+
+
+#abouttxt h3 {
+	margin:0;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	background-image: url(Images/watercolor-384873_1920.jpg);
+	background-position: center center;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+}
+
+#abouttxt p {
+	margin: 0;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	background-color: #1f1f1f;
+	font-size: 30px;
+	color: white;
+}
+
+#abouttxt img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#aboutmusic {
+	margin: 0;
+	padding: 0;
+	background-color: #1f1f1f;
+}
+
+#music-text h3 {
+	margin: 0;
+	padding-top: 30px;
+	padding-left: 150px;
+	font-size: 100px;
+	color: white;
+}
+
+/*-----------------*/
+
+.sound-bars{
+  text-align: center
+}
+.sound-bar{
+  display: inline-block;
+  margin: 0 2px;
+  height: 100px;
+  width: 30px;
+  background-color: #BC0061;
+  transform-origin: bottom;
+  animation: sounbars infinite alternate linear;
+}
+
+
+
+.sound-bar:first-child{
+  transform: scaleY(.2);
+  animation-duration: 200ms
+}
+
+.sound-bar:nth-child(2){
+  transform: scaleY(.8);
+  animation-duration: 350ms
+}
+
+.sound-bar:nth-child(3){
+  transform: scaleY(.5);
+  animation-duration: 300ms
+}
+
+.sound-bar:nth-child(4){
+  transform: scaleY(.1);
+  animation-duration: 250ms
+}
+
+.sound-bar:nth-child(5){
+  transform: scaleY(.2);
+  animation-duration: 700ms
+}
+
+.sound-bar:nth-child(6){
+  transform: scaleY(.4);
+  animation-duration: 500ms
+}
+
+.sound-bar:nth-child(7){
+  transform: scaleY(.3);
+  animation-duration: 200ms
+}
+
+.sound-bar:nth-child(8){
+  transform: scaleY(.7);
+  animation-duration: 400ms
+}
+
+.sound-bar:nth-child(9){
+  transform: scaleY(.8);
+  animation-duration: 350ms
+}
+
+.sound-bar:nth-child(10){
+  transform: scaleY(.5);
+  animation-duration: 300ms
+}
+
+.sound-bar:nth-child(11){
+  transform: scaleY(.1);
+  animation-duration: 250ms
+}
+
+.sound-bar:nth-child(12){
+  transform: scaleY(.2);
+  animation-duration: 700ms
+}
+
+.sound-bar:nth-child(13){
+  transform: scaleY(.4);
+  animation-duration: 500ms
+}
+
+.sound-bar:nth-child(14){
+  transform: scaleY(.3);
+  animation-duration: 200ms
+}
+
+.sound-bar:nth-child(15){
+  transform: scaleY(.7);
+  animation-duration: 400ms
+}
+
+.sound-bar:nth-child(16){
+  transform: scaleY(.8);
+  animation-duration: 100ms
+}
+
+@keyframes sounbars{
+  to{
+    transform:scaleY(1)
+  }  
+}
+
+
+
+/*------Tech Styling----------*/
+
+.techbanner {
+	margin: 0;
+	padding: 0;
+}
+
+.techbanner img {
+	width: 100%;
+	background-image: url(Images/dandelion-3094349_1920.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: aqua;
+	margin: 0;
+}
+
+
+
+.squares {
+	background-color: #1f1f1f;
+	margin: 0;
+	font-family: "Raleway", "lato";
+	font-size: 30px;
+}
+
+#square1 {
+	background-image: url(Images/2016-07-15-1468604410-1905990-SkypeSkypeConversation-thumb.jpg);
+	width:50%; 
+	height: 600px; 
+	margin:0px; 
+	float: left;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: orange;
+}
+
+#square2 {
+	background-image: url(Images/google-485611_1920.jpg);
+	width:50%; 
+	height: 600px; 
+	margin:0px; 
+	float: left;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}
+
+#square3 {
+	background-image: url(Images/supercomputer-1781372_1280.jpg);
+	width:50%; 
+	height:600px; 
+	margin:0px; 
+	float: left;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}
+
+#square4 {
+	background-image: url(Images/tesla-1738969_1920.jpg);
+	width:50%; 
+	height:600px; 
+	margin:0px; 
+	float: left;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: orange;
+}
+
+#square1:hover {
+	background-image: url(Images/skype.jpg);
+}
+
+#square2:hover {
+	background-image: url(Images/rankbrain.jpg);
+}
+
+#square3:hover {
+	background-image: url(Images/watson.jpg);
+}
+
+#square4:hover {
+	background-image: url(Images/tesla.jpg);
+}
+

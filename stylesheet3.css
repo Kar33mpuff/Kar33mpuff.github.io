@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+h1, h2, h3, p {
+	font-family: "Raleway", "lato";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	position: fixed;
+	z-index: 9999;
+}
+
+.navbar ul {
+	list-style-type: none;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	margin: 30px;
+}
+
+.navbar li:hover {
+	filter:hue-rotate(90deg);
+	filter:blur(2px);
+	transition-property: filter;
+	transition-duration: 1s;
+}
+
+.navbar img {
+	width: 80px;
+	opacity: 50%;
+}
+
+#particles-js {
+	width: 100%;
+	background-color: aqua;
+	background-image:url(Images/back.jpg);
+	background-size: cover;
+	background-attachment:local;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+.container {
+	box-shadow: 20px 20px black;
+}
+
+.jawn img {
+	width: 100%;
+}
