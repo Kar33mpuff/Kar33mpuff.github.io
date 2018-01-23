@@ -9,6 +9,7 @@ h1, h2, h3, p {
 
 body  {
 	margin: 0px;
+	padding: 0;
 }
 
 h1, h2, h3  {
@@ -18,7 +19,7 @@ h1, h2, h3  {
 h1 {
 	font-size: 60px;
 	margin: 30px;
-}d
+}
 
 h2 {
 	font-size: 50px;
@@ -26,7 +27,9 @@ h2 {
 	border-width: 4px;
 	padding: 7px;
 	display: inline;
-}h3 {
+}
+
+h3 {
 	font-size: 40px;
 }
 
@@ -90,34 +93,66 @@ h2 {
 	color: black;
 }
 
-/*homepage formatting*/
+
+
+/*------------------------------homepage formatting----------------------------*/
+
+
 
 .banner img  {
 	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.banner h1 {
+	font-size: 70px;
+	background-color: white;
+	width: 100%;
+	margin: 0;
 }
 
 .home1 .home2 .home3  {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	
 }
 
 .homebody  {
 	margin: 50px;
+	padding: 30px;
+	background-color: white;
 }
 
-/*cte page formatting*/
+.homebody h3 {
+	font-size: 40px;
+	margin: 0;
+	padding: 20px;
+}
+
+.homebody p {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*----------------------------cte page formatting------------------------------*/
+
+
+
 
 .ctebody  {
 	font-family: "Raleway", "lato";
 }
 
 .ctebar  {
-	padding: 30px;
-	padding-left: 60px;
+	padding: 0 30px 30px 60px;
 	background-color: lightgrey;
 	overflow: auto;
 	text-align: justify;
+	font-size: 25px;
 }
 
 .ctebar img  {
@@ -126,16 +161,16 @@ h2 {
 	height: 200px;
 	padding-left: 100px;
 	padding-right: 70px;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 .ctebar2  {
-	padding: 30px;
-	padding-right: 60px;
+	padding: 0 60px 30px 30px;
 	background-color: white;
 	overflow: auto;
 	text-align: justify;
+	font-size: 25px;
 }
 
 .ctebar2 img {
@@ -150,14 +185,14 @@ h2 {
 
 .ctebar h3  {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	text-align: left;
 	margin-left: 150px;
 }
 
 .ctebar2 h3  {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	text-align: right;
 	margin-right: 170px;
 }
@@ -173,7 +208,7 @@ h2 {
 }
 
 #teachpic1, #teachpic2 {
-	margin: 50px;
+	margin: 80px;
 }
 
 #teachtxt1, #teachtxt2 {
@@ -203,60 +238,170 @@ h2 {
 	transition-duration: 1s;
 }
 
+#teachtxt1, #teachtxt2 {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#cteclasses {
+	padding: 20px 70px 30px 70px;
+}
+
+#cteclass ul {
+	color: darkred;
+}
+
+#cteclasses li {
+	font-size: 45px;
+	color: white;
+	background-color: darkred;
+	font-family: "Raleway", "lato";
+	line-height: 150%;
+	margin: 30px 20px 30px 200px;
+	padding-left: 20px;
+}
+
 .gallery  {
-	align-content: center;
+	text-align: center;
+	background-color: #1f1f1f;
+	margin: 0;
+	padding: 0 0 30px 0;
+	color: white
 }
 
 .gallery img  {
 	display: inline;
 	width: 30%;
 	height: 250px;
-	margin: 5px;
+	margin: 10px;
 	
 }
 
 .gallery img:hover  {
-	opacity: .5;
-	
+	opacity: .5; 
+	transition-property: opacity;
+	transition-duration: 500ms;
 }
 
-/*tsa page formatting*/
 
-.tsabar  {
-	padding: 30px;
-	padding-left: 60px;
-	background-color: lightgrey;
-	overflow: auto;
-	text-align: justify;
-}
-	
-.tsabar img  {
-    float: right;
-	width: 200px;
-	padding-left: 100px;
-	padding-right: 70px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-}
 
-#bar {
-	padding: 30px;
-	padding-left: 60px;
-	overflow: auto;
-	text-align: justify;
-}
 
-#bar {
-	background-color: lightgrey
-}
+/*-------------------------------tsa page formatting-----------------------------*/
 
-#bar img {
-    float: right;
-	width: 200px;
-	padding-left: 70px;
-	padding-right: 30px;	
+
+
+#slogan {
+	margin: 0;
 }
 
 #slogan img {
 	width: 100%;
+	margin: 0;
+}
+
+#advisors {
+	background-image: url(Images/quote-791953_1920.jpg);
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	margin: 0;
+}
+
+#advisors h2 {
+	font-size: 70px;
+	border-width: 10px;
+	margin: 0;
+}
+
+.tsabar2  {
+	font-family: "Raleway", "lato";
+	padding: 30px;
+	padding-right: 60px;
+	overflow: auto;
+	text-align: justify;
+	color: #1f1f1f;
+	background-color: white;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+	font-size: 25px;
+}
+
+.tsabar2 img {
+    float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 100px;
+	margin-left: 70px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+}
+
+
+.tsabar2 h3  {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	margin-right: 170px;
+}
+
+#awards {
+	background-image: url(Images/stage-curtain-660078_1920.jpg);
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	margin: 0;
+}
+
+#awards h2 {
+	font-size: 70px;
+	border-width: 10px;
+	margin: 0;
+}
+
+
+#trifold {
+	margin-top: 0;
+	margin-bottom: 50px;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	width: 100%;
+
+}
+
+.fold {
+	width: 24%;
+	height: 300px;
+	float: left;
+	padding: 0 0 50px 0;
+	margin: 3%;
+	text-align: center;
+}
+
+.fold img {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+#bar {
+	padding: 30px;
+	padding-left: 60px;
+	overflow: auto;
+	text-align: justify;
+	background-color: lightgrey;
+	
+}
+
+#bar img {
+    float: right;
+	width: 225px;
+	padding-left: 70px;
+	padding-right: 30px;	
 }
