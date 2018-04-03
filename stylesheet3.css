@@ -9,9 +9,11 @@ body {
 	padding: 0;
 }
 
+
 .navbar {
 	position: fixed;
 	z-index: 9999;
+	width: 10%;
 }
 
 .navbar ul {
@@ -19,6 +21,10 @@ body {
 	top: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.navbar img {
+	width: 75px;
 }
 
 .navbar li {
@@ -35,10 +41,9 @@ body {
 }
 
 .navbar li:hover {
-	filter:hue-rotate(90deg);
 	filter:blur(2px);
 	transition-property: filter;
-	transition-duration: 1s;
+	transition-duration: .5s;
 }
 
 
@@ -47,7 +52,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
-	background-image:url(Images/Prometheus.jpg);
+	background-image:url(Images/adult-blur-bokeh-712786.jpg);
 	background-size: cover;
 	background-attachment:local;
 	background-position: center center;
