@@ -22,7 +22,9 @@ body {
 }
 
 .navbar li {
-	margin: 30px;
+	margin: 40px;
+	font-family: "Monaco";
+	color: white;
 }
 
 .navbar li:hover {
@@ -32,10 +34,7 @@ body {
 	transition-duration: 1s;
 }
 
-.navbar img {
-	width: 80px;
-	opacity: 50%;
-}
+
 
 #particles-js {
 	width: 100vw;
