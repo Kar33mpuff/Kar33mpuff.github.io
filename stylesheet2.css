@@ -2,7 +2,10 @@
 /* CSS Document */
 
 
-
+body {
+	margin: 0;
+	padding: 0;
+}
 
 h1, h2, h3, h4, h5, h6, p {
 	font-family: "Raleway", "lato";
@@ -12,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar {
 	position: fixed;
 	z-index: 9999;
+	width: 10%;
 }
 
 .navbar ul {
@@ -21,6 +25,10 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
+.navbar img {
+	width: 75px;
+}
+
 .navbar li {
 	margin: 40px;
 	font-family: "Monaco";
@@ -28,10 +36,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .navbar li:hover {
-	filter:hue-rotate(90deg);
 	filter:blur(2px);
 	transition-property: filter;
-	transition-duration: 1s;
+	transition-duration: .5s;
 }
 
 .bannertxt {
@@ -40,11 +47,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .bannertxt img {
-	width: 75%;	
+	height: 100vh;
 }
 
 .bannertxt {
-	background-image: url(Images/ford-2705402_1920.jpg);
+	background-image: url(Images/burj-al-arab-2624317_1920.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -59,7 +66,8 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 50px;
-	background-image: url(Kar33mpuff.github.io/Images/watercolor-384873_1920.jpg);
+	background-image: url(Images/blue-clouds-exotic-37403.jpg);
+	background-attachment: fixed;
 	background-position: center center;
 	font-size: 70px;
 	color: white;
@@ -83,144 +91,122 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
-#aboutmusic {
-	margin: 0;
-	padding: 0;
-	background-color: #1f1f1f;
+#abouttxt2 h3 {
+	margin:0;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	background-image: url(Images/adventure-alps-background-547114.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	font-size: 70px;
+	color: white;
+	text-align: center;
 }
 
-#music-text h3 {
+#abouttxt2 p {
 	margin: 0;
-	padding-top: 30px;
 	padding-left: 150px;
-	font-size: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	background-color: #1f1f1f;
+	font-size: 30px;
 	color: white;
 }
 
+#abouttxt2 img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#awards {
+	background-image: url(Images/macbook-606763_1920.jpg);
+	background-attachment: fixed;
+	text-align: center;
+	padding: 25px;
+	margin: 0;
+}
+
+#awards h2 {
+	font-size: 70px;
+	border-width: 10px;
+	margin: 0;
+	color: white;
+}
+
+
+#trifold {
+	margin-top: 0;
+	margin-bottom: 50px;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	width: 100%;
+	background-color:#BCBCBC;
+
+}
+
+.fold {
+	width: 24%;
+	height: 350px;
+	float: left;
+	padding: 0;
+	margin: 3%;
+	text-align: center;
+}
+
+.fold img {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	border-radius: 50%;
+}
+
+
+
+
+
 /*-----------------*/
-
-.sound-bars{
-  text-align: center
-}
-.sound-bar{
-  display: inline-block;
-  margin: 0 2px;
-  height: 100px;
-  width: 30px;
-  background-color: #BC0061;
-  transform-origin: bottom;
-  animation: sounbars infinite alternate linear;
-}
-
-
-
-.sound-bar:first-child{
-  transform: scaleY(.2);
-  animation-duration: 200ms
-}
-
-.sound-bar:nth-child(2){
-  transform: scaleY(.8);
-  animation-duration: 350ms
-}
-
-.sound-bar:nth-child(3){
-  transform: scaleY(.5);
-  animation-duration: 300ms
-}
-
-.sound-bar:nth-child(4){
-  transform: scaleY(.1);
-  animation-duration: 250ms
-}
-
-.sound-bar:nth-child(5){
-  transform: scaleY(.2);
-  animation-duration: 700ms
-}
-
-.sound-bar:nth-child(6){
-  transform: scaleY(.4);
-  animation-duration: 500ms
-}
-
-.sound-bar:nth-child(7){
-  transform: scaleY(.3);
-  animation-duration: 200ms
-}
-
-.sound-bar:nth-child(8){
-  transform: scaleY(.7);
-  animation-duration: 400ms
-}
-
-.sound-bar:nth-child(9){
-  transform: scaleY(.8);
-  animation-duration: 350ms
-}
-
-.sound-bar:nth-child(10){
-  transform: scaleY(.5);
-  animation-duration: 300ms
-}
-
-.sound-bar:nth-child(11){
-  transform: scaleY(.1);
-  animation-duration: 250ms
-}
-
-.sound-bar:nth-child(12){
-  transform: scaleY(.2);
-  animation-duration: 700ms
-}
-
-.sound-bar:nth-child(13){
-  transform: scaleY(.4);
-  animation-duration: 500ms
-}
-
-.sound-bar:nth-child(14){
-  transform: scaleY(.3);
-  animation-duration: 200ms
-}
-
-.sound-bar:nth-child(15){
-  transform: scaleY(.7);
-  animation-duration: 400ms
-}
-
-.sound-bar:nth-child(16){
-  transform: scaleY(.8);
-  animation-duration: 100ms
-}
-
-@keyframes sounbars{
-  to{
-    transform:scaleY(1)
-  }  
-}
 
 
 
 /*------Tech Styling----------*/
 
+
 .techbanner {
 	margin: 0;
-	padding: 0;
-}
-
-.techbanner img {
-	width: 100%;
-	background-image: url(Images/dandelion-3094349_1920.jpg);
+	text-align: center;
+	background-image: url(Images/coding-computer-data-577585.jpg);;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: aqua;
+}
+
+.techbanner img {
+	height: 100vh;
+}
+
+#nick {
+	background-color: white;
+	border: 0;
 	margin: 0;
 }
 
-
+#nick p {
+	margin-left: 10%;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	color: #1f1f1f;
+	
+}
 
 .squares {
 	background-color: #1f1f1f;
@@ -230,21 +216,22 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #square1 {
-	background-image: url(Images/2016-07-15-1468604410-1905990-SkypeSkypeConversation-thumb.jpg);
-	width:50%; 
-	height: 600px; 
+	width:33%; 
+	height: 300px; 
 	margin:0px; 
 	float: left;
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
-	color: orange;
+	color: white;
+	font-size: 18px;
+	background-color: #1f1f1f;
 }
 
 #square2 {
-	background-image: url(Images/google-485611_1920.jpg);
-	width:50%; 
-	height: 600px; 
+	background-image: url(Images/laptop-2411303.jpg);
+	width:67%; 
+	height: 300px; 
 	margin:0px; 
 	float: left;
 	background-repeat:no-repeat;
@@ -254,9 +241,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #square3 {
-	background-image: url(Images/supercomputer-1781372_1280.jpg);
-	width:50%; 
-	height:600px; 
+	background-image: url(Images/board-453758_1920.jpg);
+	width:67%; 
+	height:300px; 
 	margin:0px; 
 	float: left;
 	background-repeat:no-repeat;
@@ -266,30 +253,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #square4 {
-	background-image: url(Images/tesla-1738969_1920.jpg);
-	width:50%; 
-	height:600px; 
+	width:33%; 
+	height:300px; 
 	margin:0px; 
 	float: left;
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
-	color: orange;
+	color: white;
+	font-size: 18px;
+	background-color: #1f1f1f;
 }
-
-#square1:hover {
-	background-image: url(Images/skype.jpg);
-}
-
-#square2:hover {
-	background-image: url(Images/rankbrain.jpg);
-}
-
-#square3:hover {
-	background-image: url(Images/watson.jpg);
-}
-
-#square4:hover {
-	background-image: url(Images/tesla.jpg);
-}
-
