@@ -9,72 +9,57 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 150%;
 }
 
-/*enter styling*/
-
-body {
-	margin: 0;
-	padding: 0;
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-#enter {
-	background-image: url(Images/pexels-photo-392100.jpeg);
-	
+.dropdown img {
+  width: 5%;
+  float: left;
 }
 
-#enter img{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	transform: translate(-50%,-50%);
-	z-index: 9999;
-	background-image: url(Images/pexels-photo-392100.jpeg);
-	background-size: contain;
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-#enter:hover {
-	filter: blur(2px);
-	transition-property: filter;
-	transition-duration: 1s;
+/* Add a red background color to navbar links on hover */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
 }
 
-#enter img:hover {
-	background-position: center center;
-	transition-property: background-position;
-	transition-duration: 1s;
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: "monaco";
 }
 
 
 
-
-
-.navbar {
-	position: fixed;
-	z-index: 9999;
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.navbar ul {
-	list-style-type: none;
-	top: 100%;
-	margin: 0;
-	padding: 0;
-}
 
-.navbar li {
-	margin: 30px;
-}
 
-.navbar li:hover {
-	filter:hue-rotate(90deg);
-	filter:blur(2px);
-	transition-property: filter;
-	transition-duration: 1s;
-}
-
-.navbar img {
-	width: 80px;
-	opacity: 50%;
-}
 
 .bannertxt {
 	margin: auto;
