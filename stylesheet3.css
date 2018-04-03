@@ -29,6 +29,10 @@ body {
 	text-decoration: none;
 }
 
+.navbar li a {
+	text-decoration: none;
+	color: white;
+
 .navbar li:hover {
 	filter:hue-rotate(90deg);
 	filter:blur(2px);
