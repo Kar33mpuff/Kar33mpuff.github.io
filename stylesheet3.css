@@ -10,9 +10,9 @@ body {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
   position: fixed;
+  z-index: 9999;
 }
 
 .dropdown img {
