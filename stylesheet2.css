@@ -228,6 +228,10 @@ h1, h2, h3, h4, h5, h6, p {
 	background-color: #1f1f1f;
 }
 
+#square1 p {
+	padding: 10px;
+}
+
 #square2 {
 	background-image: url(Images/laptop-2411303.jpg);
 	width:67%; 
@@ -237,6 +241,7 @@ h1, h2, h3, h4, h5, h6, p {
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-attachment: fixed;
 	color: white;
 }
 
@@ -249,6 +254,7 @@ h1, h2, h3, h4, h5, h6, p {
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-attachment: fixed;
 	color: white;
 }
 
@@ -263,4 +269,8 @@ h1, h2, h3, h4, h5, h6, p {
 	color: white;
 	font-size: 18px;
 	background-color: #1f1f1f;
+}
+
+#square4 p {
+	padding: 10px;
 }
